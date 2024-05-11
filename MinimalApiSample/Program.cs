@@ -9,8 +9,8 @@ builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 builder.Services.AddCors();
 
-
 builder.Services.AddScoped<RouterBase, BookRouter>();
+builder.Services.AddScoped<RouterBase, ArticleRouter>();
 
 var app = builder.Build();
 
