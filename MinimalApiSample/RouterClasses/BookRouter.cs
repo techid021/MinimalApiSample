@@ -138,7 +138,7 @@ namespace MinimalApiSample.RouterClasses
             return ret;
         }
 
-        
+
         public override void AddRoutes(WebApplication app)
         {
             app.MapGet($"/{UrlFragment}", () => Get());
